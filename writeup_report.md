@@ -55,7 +55,7 @@ The model.py file contains the code for training and saving the convolution neur
 
 #### 1. An appropriate model architecture has been employed
 
-After reading the [NVIDIA PilotNet Paper] (https://arxiv.org/pdf/1704.07911.pdf) recommended in the course, I decided to start with PilotNet. 
+After reading the [NVIDIA PilotNet Paper](https://arxiv.org/pdf/1704.07911.pdf) recommended in the course, I decided to start with PilotNet. 
 I pre-processed the images by first converting to YUV (as described in the paper), normalized the image, and finally cropped the top 50 pixels and the bottom 25 pixels.
 I ensured that the neural net was initialized with normal distributions then started exploring the activation function options.
 In order to ensure a variety of non-linearity I wanted to have at least two different activation functions. After testing, I decided on the ELU (expontential linear unit) and tanh (hyperbollic tangent).
@@ -86,7 +86,7 @@ I recorded additional successful driving and recovery in those tight turn areas.
 #### 1. Solution Design Approach
 
 The overall strategy for deriving a model architecture was to research existing neural nets and leverage those. 
-As mentioned before, I read the [NVIDIA PilotNet Paper] (https://arxiv.org/pdf/1704.07911.pdf) recommended in the course, and I decided to start with PilotNet.
+As mentioned before, I read the [NVIDIA PilotNet Paper](https://arxiv.org/pdf/1704.07911.pdf) recommended in the course, and I decided to start with PilotNet.
 PilotNet is clearly appropriate because it was used to also drive a vehicle autonomously from image data.
 
 In order to gauge how well the model was working, I split my image and steering angle data into a training and validation (20%) set. 

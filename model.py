@@ -34,7 +34,7 @@ model.add(Dropout(keep_prob)) # Dropout #2
 # Start of fully connected layers
 model.add(Flatten())
 model.add(Dense(100, init='normal', activation='tanh'))
-model.add(Dropout(keep_prob)) #D Dropout #3
+model.add(Dropout(keep_prob)) # Dropout #3
 model.add(Dense(50, init='normal'))
 model.add(Dense(10, init='normal'))
 model.add(Dense(1, init='normal'))

@@ -139,7 +139,7 @@ The next step was to normalized the image:
 
 ![alt text][image_norm]
 
-Finally, the images were cropped to remove the skyline and the hood of the car:
+Finally, the images were cropped to remove the skyline and the hood of the car (YUV / Normalization removed for image example):
 
 ![alt text][image_crop]
 

@@ -17,7 +17,7 @@ The goals / steps of this project are the following:
 [//]: # (Image References)
 
 [image0]: ./examples/PilotNet.JPG "PilotNet"
-[image1]: ./examples/model_viz.png "Model Visualization"
+[image1]: ./examples/model_viz.JPG "Model Visualization"
 [image2_L]: ./examples/Left.png "Normal Driving Left Camera"
 [image2_C]: ./examples/Center.png "Normal Driving Center Camera"
 [image2_R]: ./examples/Right.png "Normal Driving Right Camera"
